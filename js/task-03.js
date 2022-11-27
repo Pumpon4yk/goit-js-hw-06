@@ -29,5 +29,4 @@ function creatGalleryElement (element){
 }
 
 const galleryElement = creatGalleryElement(images);
-console.log(galleryElement);
 galleryImg.append(...galleryElement);
