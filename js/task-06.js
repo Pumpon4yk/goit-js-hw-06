@@ -4,7 +4,7 @@ inputRefs.addEventListener('blur', validInput)
 
 function validInput (){
 
-    if (inputRefs.dataset.length > inputRefs.value.length) {
+    if (inputRefs.dataset.length != inputRefs.value.length) {
         inputRefs.classList.remove('valid')
         return inputRefs.classList.add('invalid');
     }
